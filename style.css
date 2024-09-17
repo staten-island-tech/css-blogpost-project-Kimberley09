@@ -1,17 +1,17 @@
 
 /* Google Font */
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #e0f7fa; /* Light blue background */
+    font-family: 'Lucida Console', 'Courier New', monospace;
+    background-color: #f4ddf9; 
     margin: 0;
     padding: 0;
     text-align: center; /* Center text */
 }
 
 header {
-    background-color: pink; /* Darker blue for the header */
+    background-color: rgb(250, 237, 255); /* Darker blue for the header */
     padding: 20px;
-    color: white;
+    color:rgb(230, 178, 241);
 }
 
 #blog-title {
@@ -38,16 +38,16 @@ main {
 
 .post {
     background-color: #ffffff;
-    border: 2px solid #0288d1; /* Blue border around posts */
+    border: 2px solid pink; /* Blue border around posts */
     border-radius: 8px;
     padding: 20px;
     width: 300px; /* Fixed width for each post */
     text-align: center; /* Center content inside each post */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+    box-shadow: 0px 4px 8px rgb(194, 70, 235); /* Slight shadow for depth */
 }
 
 .image-box {
-    border: 2px solid #0288d1; /* Blue border around image */
+    border: 2px solid rgb(232, 164, 226); /* Blue border around image */
     padding: 5px;
     border-radius: 8px;
     margin-bottom: 15px; /* Space below the image */
@@ -62,21 +62,13 @@ main {
 .post-title {
     font-size: 1.5rem;
     margin: 15px 0;
-    color: #0288d1;
+    color: #000000;
 }
 
 .preview-text {
     font-size: 1rem;
-    color: #666;
+    color: #000000;
     margin-bottom: 15px;
 }
 
-footer {
-    background-color: #0288d1;
-    padding: 20px;
-    color: white;
-    text-align: center;
-    width: 100%;
-    position: relative; /* Ensure footer is positioned properly */
-}
 
